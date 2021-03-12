@@ -266,7 +266,7 @@ main .row {
 }
 
 .row.items {
-  height: 840px;
+  height: 810px;
   overflow: hidden;
 }
 
@@ -356,10 +356,11 @@ main .row {
 .see-more-less>.btn {
   border: none;
   padding: 0 12px;
+  text-decoration: underline;
 }
 
 .see-more-less>.btn:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 @media (max-width: 767px) {
@@ -614,7 +615,7 @@ footer p {
 }
 
 .cart-item input {
-  width: 2.5rem;
+  width: 3rem;
 }
 
 .remove-cart-item {
